@@ -392,6 +392,9 @@
   .home-banner-sub-heading {
     max-width: 100%;
   }
+  .home-faq {
+    display: none;
+  }
   .home-text53 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
@@ -518,6 +521,9 @@
   }
   .home-banner-button {
     font-family: Chillax-Regular;
+  }
+  .home-faq {
+    display: none;
   }
   .home-footer1 {
     padding: var(--dl-space-space-unit);

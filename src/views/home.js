@@ -295,18 +295,22 @@ const Home = (props) => {
               <FeatureCard
                 heading="Discover"
                 subHeading="All Movies, All Streaming Platform"
+                rootClassName="feature-card-root-class-name"
               ></FeatureCard>
               <FeatureCard
                 heading="Party"
                 subHeading="Create a party e share it with your friends"
+                rootClassName="feature-card-root-class-name1"
               ></FeatureCard>
               <FeatureCard
                 heading="Recommendations"
                 subHeading="Receive personalized film recommendations based on your votes"
+                rootClassName="feature-card-root-class-name2"
               ></FeatureCard>
               <FeatureCard
                 heading="Vote"
                 subHeading="Express your opinion, see the pool, Enjoy the movie!"
+                rootClassName="feature-card-root-class-name3"
               ></FeatureCard>
             </div>
           </div>
