@@ -1,3 +1,9 @@
+.feature-card-feature-card {
+  background-color: var(--dl-color-custom-primary1);
+}
+.feature-card-icon {
+  fill: #ffffff;
+}
 .feature-card-container {
   gap: var(--dl-space-space-unit);
   display: flex;
@@ -6,8 +12,12 @@
   justify-content: flex-start;
 }
 .feature-card-text {
+  color: #ffffff;
   font-weight: 600;
   line-height: 28px;
+}
+.feature-card-text1 {
+  color: #ffffff;
 }
 
 
