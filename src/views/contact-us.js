@@ -8,10 +8,19 @@ const ContactUs = (props) => {
   return (
     <div className="contact-us-container">
       <Helmet>
-        <title>Contact-Us - Definite Optimal Cormorant</title>
+        <title>Contact-Us - Filmatch</title>
         <meta
-          property="og:title"
-          content="Contact-Us - Definite Optimal Cormorant"
+          name="description"
+          content="Create a party, vote Enjoy!\nCan't pick a movie? Filmatch finds perfect picks based on your taste &amp; friends'"
+        />
+        <meta property="og:title" content="Contact-Us - Filmatch" />
+        <meta
+          property="og:description"
+          content="Create a party, vote Enjoy!\nCan't pick a movie? Filmatch finds perfect picks based on your taste &amp; friends'"
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/f61639be-7027-40e1-8147-524016e23b64/2a672d61-d52f-4d72-b854-b5e49ac33c22?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <div className="contact-us-header">

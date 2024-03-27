@@ -291,10 +291,6 @@
 .home-features-heading {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-features-sub-heading {
-  font-size: 18px;
-  text-align: center;
-}
 .home-container3 {
   width: 100%;
   display: grid;
@@ -314,12 +310,12 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text29 {
+.home-text15 {
   color: #ffffff;
   font-weight: 600;
   line-height: 28px;
 }
-.home-text30 {
+.home-text16 {
   color: rgb(255, 255, 255);
 }
 .home-feature-card1 {
@@ -335,12 +331,12 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text31 {
+.home-text17 {
   color: #ffffff;
   font-weight: 600;
   line-height: 28px;
 }
-.home-text32 {
+.home-text18 {
   color: rgb(255, 255, 255);
 }
 .home-footer {
@@ -439,21 +435,16 @@
   .home-text10 {
     text-align: center;
   }
-  .home-features-sub-heading {
-    text-align: center;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
-  }
   .home-feature-card {
     background-color: var(--dl-color-custom-primary1);
   }
   .home-icon10 {
     fill: #ffffff;
   }
-  .home-text29 {
+  .home-text15 {
     color: #ffffff;
   }
-  .home-text30 {
+  .home-text16 {
     color: #ffffff;
   }
   .home-feature-card1 {
@@ -462,10 +453,10 @@
   .home-icon12 {
     fill: #ffffff;
   }
-  .home-text31 {
+  .home-text17 {
     color: #ffffff;
   }
-  .home-text32 {
+  .home-text18 {
     color: #ffffff;
   }
 }
@@ -518,10 +509,6 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-features-sub-heading {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
   .home-container3 {
     grid-template-columns: 1fr;
   }
@@ -552,7 +539,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text33 {
+  .home-text19 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -635,7 +622,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text33 {
+  .home-text19 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
