@@ -5,6 +5,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-color: #121212;
 }
 .home-header {
   width: 100%;
@@ -195,6 +196,71 @@
   font-family: "Chillax-Regular";
   text-decoration: none;
 }
+.home-stats {
+  width: 100%;
+  display: grid;
+  padding: var(--dl-space-space-threeunits);
+  grid-gap: var(--dl-space-space-twounits);
+  max-width: var(--dl-size-size-maxwidth);
+  background-color: #121212;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.home-stat {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-text04 {
+  color: var(--dl-color-custom-primary1);
+}
+.home-text05 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.home-stat1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-text06 {
+  color: var(--dl-color-custom-primary1);
+}
+.home-text07 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.home-stat2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-text08 {
+  color: var(--dl-color-custom-primary1);
+}
+.home-text09 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.home-stat3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.home-text10 {
+  color: var(--dl-color-custom-primary1);
+}
+.home-text11 {
+  color: var(--dl-color-gray-white);
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
 .home-features {
   flex: 0 0 auto;
   width: 100%;
@@ -248,12 +314,12 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text21 {
+.home-text29 {
   color: #ffffff;
   font-weight: 600;
   line-height: 28px;
 }
-.home-text22 {
+.home-text30 {
   color: rgb(255, 255, 255);
 }
 .home-feature-card1 {
@@ -269,12 +335,12 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text23 {
+.home-text31 {
   color: #ffffff;
   font-weight: 600;
   line-height: 28px;
 }
-.home-text24 {
+.home-text32 {
   color: rgb(255, 255, 255);
 }
 .home-footer {
@@ -361,6 +427,18 @@
   .home-text {
     text-align: center;
   }
+  .home-text04 {
+    text-align: center;
+  }
+  .home-text06 {
+    text-align: center;
+  }
+  .home-text08 {
+    text-align: center;
+  }
+  .home-text10 {
+    text-align: center;
+  }
   .home-features-sub-heading {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
@@ -372,10 +450,10 @@
   .home-icon10 {
     fill: #ffffff;
   }
-  .home-text21 {
+  .home-text29 {
     color: #ffffff;
   }
-  .home-text22 {
+  .home-text30 {
     color: #ffffff;
   }
   .home-feature-card1 {
@@ -384,10 +462,10 @@
   .home-icon12 {
     fill: #ffffff;
   }
-  .home-text23 {
+  .home-text31 {
     color: #ffffff;
   }
-  .home-text24 {
+  .home-text32 {
     color: #ffffff;
   }
 }
@@ -418,6 +496,23 @@
   .home-hero1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+  }
+  .home-stats {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr 1fr;
+  }
+  .home-text05 {
+    text-align: center;
+  }
+  .home-text07 {
+    text-align: center;
+  }
+  .home-text09 {
+    text-align: center;
+  }
+  .home-text11 {
+    text-align: center;
   }
   .home-features1 {
     padding-left: var(--dl-space-space-twounits);
@@ -457,7 +552,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text25 {
+  .home-text33 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -493,6 +588,13 @@
   .home-hero-button1 {
     background-color: var(--dl-color-custom-primary1);
   }
+  .home-stats {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr;
+  }
   .home-features1 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -502,7 +604,7 @@
   .home-container2 {
     align-items: center;
   }
-  .home-text04 {
+  .home-text12 {
     text-align: center;
   }
   .home-features-heading {
@@ -533,7 +635,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text25 {
+  .home-text33 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }

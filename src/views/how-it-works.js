@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -26,9 +27,10 @@ const HowItWorks = (props) => {
           />
           <div data-thq="thq-navbar-nav" className="how-it-works-desktop-menu">
             <nav className="how-it-works-links">
-              <span className="bodySmall">Home</span>
+              <Link to="/" className="how-it-works-nav12 bodySmall">
+                Home
+              </Link>
               <span className="how-it-works-nav22 bodySmall">How It Works</span>
-              <span className="how-it-works-nav32 bodySmall">Categories</span>
               <a
                 href="https://filmatch.app"
                 target="_blank"
@@ -90,9 +92,7 @@ const HowItWorks = (props) => {
                 <span className="how-it-works-nav221 bodySmall">
                   How It Works
                 </span>
-                <span className="how-it-works-nav321 bodySmall">
-                  Categories
-                </span>
+                <span className="how-it-works-nav32 bodySmall">Categories</span>
                 <span className="how-it-works-nav421 bodySmall">Vote Now</span>
                 <span className="how-it-works-nav521 bodySmall">
                   Contact Us
@@ -189,7 +189,7 @@ const HowItWorks = (props) => {
           <nav className="how-it-works-nav1">
             <span className="bodySmall">Home</span>
             <span className="how-it-works-nav222 bodySmall">How It Works</span>
-            <span className="how-it-works-nav322 bodySmall">Categories</span>
+            <span className="how-it-works-nav321 bodySmall">Categories</span>
             <span className="how-it-works-nav422 bodySmall">Vote Now</span>
             <span className="how-it-works-nav522 bodySmall">Contact Us</span>
           </nav>
