@@ -21,8 +21,6 @@
 }
 
 
-
-
 @media(max-width: 991px) {
   .feature-card-feature-card {
     background-color: #831010;
@@ -36,13 +34,7 @@
   .feature-card-text1 {
     color: #ffffff;
   }
-  .feature-card-root-class-name {
-    background-color: var(--dl-color-custom-primary1);
-  }
   .feature-card-root-class-name1 {
-    background-color: var(--dl-color-custom-primary1);
-  }
-  .feature-card-root-class-name2 {
     background-color: var(--dl-color-custom-primary1);
   }
   .feature-card-root-class-name3 {

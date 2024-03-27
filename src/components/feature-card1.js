@@ -19,14 +19,14 @@ const FeatureCard1 = (props) => {
 }
 
 FeatureCard1.defaultProps = {
-  heading: 'Lorem ipsum',
   subHeading:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem lorem, malesuada in metus vitae, scelerisque accumsan ipsum.',
+  heading: 'Lorem ipsum',
 }
 
 FeatureCard1.propTypes = {
-  heading: PropTypes.string,
   subHeading: PropTypes.string,
+  heading: PropTypes.string,
 }
 
 export default FeatureCard1

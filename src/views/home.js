@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 import FeatureCard from '../components/feature-card'
-import Question1 from '../components/question1'
 import './home.css'
 
 const Home = (props) => {
@@ -32,7 +31,6 @@ const Home = (props) => {
               <Link to="/how-it-works" className="home-nav22 bodySmall">
                 How It Works
               </Link>
-              <span className="home-nav32 bodySmall">Categories</span>
               <a
                 href="https://filmatch.app"
                 target="_blank"
@@ -86,7 +84,7 @@ const Home = (props) => {
               <nav className="home-links1">
                 <span className="home-nav121 bodySmall">Home</span>
                 <span className="home-nav221 bodySmall">How It Works</span>
-                <span className="home-nav321 bodySmall">Categories</span>
+                <span className="home-nav32 bodySmall">Categories</span>
                 <span className="home-nav421 bodySmall">Vote Now</span>
                 <span className="home-nav521 bodySmall">Contact Us</span>
               </nav>
@@ -134,73 +132,6 @@ const Home = (props) => {
               <span>Enjoy!</span>
               <br></br>
             </h1>
-            <span className="home-hero-sub-heading bodyLarge">
-              <span>
-                <span>
-                  <span>
-                    Welcome to filmatch - Your Destination for Film
-                    Recommendations
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-              </span>
-              <span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-                <span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span>
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </span>
-              </span>
-            </span>
             <div className="home-btn-group">
               <a
                 href="https://filmatch.app"
@@ -221,7 +152,7 @@ const Home = (props) => {
         <div className="featuresContainer">
           <div className="home-features1">
             <div className="home-container2">
-              <span className="overline home-text18">
+              <span className="overline home-text04">
                 <span>features</span>
                 <br></br>
               </span>
@@ -297,67 +228,46 @@ const Home = (props) => {
               </span>
             </div>
             <div className="home-container3">
-              <FeatureCard
-                heading="Discover"
-                subHeading="All Movies, All Streaming Platform"
-                rootClassName="feature-card-root-class-name"
-              ></FeatureCard>
+              <div className="home-feature-card featuresCard">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="home-icon10 featuresIcon"
+                >
+                  <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
+                </svg>
+                <div className="home-container4">
+                  <h3 className="home-text21 heading3">Discover</h3>
+                  <span className="home-text22">
+                    Explore a wide range of movies, from the latest releases to
+                    timeless classics.
+                  </span>
+                </div>
+              </div>
               <FeatureCard
                 heading="Party"
                 subHeading="Create a party and share it with your friends"
                 rootClassName="feature-card-root-class-name1"
               ></FeatureCard>
-              <FeatureCard
-                heading="Recommendations"
-                subHeading="Receive personalized film recommendations based on your votes"
-                rootClassName="feature-card-root-class-name2"
-              ></FeatureCard>
+              <div className="home-feature-card1 featuresCard">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="home-icon12 featuresIcon"
+                >
+                  <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
+                </svg>
+                <div className="home-container5">
+                  <h3 className="home-text23 heading3">Recommendations</h3>
+                  <span className="home-text24">
+                    Filmatch provides personalized recommendations, taking into
+                    account favorite genres, ratings, and reviews.
+                  </span>
+                </div>
+              </div>
               <FeatureCard
                 heading="Vote"
                 subHeading="Express your opinion, see the poll, Enjoy the movie!"
                 rootClassName="feature-card-root-class-name3"
               ></FeatureCard>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="home-faq">
-        <div className="faqContainer">
-          <div className="home-faq1">
-            <div className="home-container4">
-              <span className="overline">
-                <span>FAQ</span>
-                <br></br>
-              </span>
-              <h2 className="home-text38 heading2">Common questions</h2>
-              <span className="home-text39 bodyLarge">
-                <span>
-                  Here are some of the most common questions that we get.
-                </span>
-                <br></br>
-              </span>
-            </div>
-            <div className="home-container5">
-              <Question1
-                answer="To vote for a film on filmatch, simply click on the 'Vote' button next to the film you want to support."
-                question="How do I vote for a film on filmatch?"
-              ></Question1>
-              <Question1
-                answer="Once you have submitted your vote for a film on filmatch, it cannot be changed. Please make sure to vote carefully."
-                question="Can I change my vote after submitting it?"
-              ></Question1>
-              <Question1
-                answer="Yes, all votes on filmatch are anonymous. Your privacy is important to us."
-                question="Are the votes on filmatch anonymous?"
-              ></Question1>
-              <Question1
-                answer="You can vote on filmatch once per film. Make sure to choose wisely!"
-                question="How often can I vote on filmatch?"
-              ></Question1>
-              <Question1
-                answer="Currently, we do not have a feature to suggest films for filmatch. However, we appreciate your interest and feedback."
-                question="Can I suggest a film to be added to filmatch?"
-              ></Question1>
             </div>
           </div>
         </div>
@@ -369,14 +279,14 @@ const Home = (props) => {
             <nav className="home-nav1">
               <span className="bodySmall">Home</span>
               <span className="home-nav222 bodySmall">How It Works</span>
-              <span className="home-nav322 bodySmall">Categories</span>
+              <span className="home-nav321 bodySmall">Categories</span>
               <span className="home-nav422 bodySmall">Vote Now</span>
               <span className="home-nav522 bodySmall">Contact Us</span>
             </nav>
           </div>
           <div className="home-separator"></div>
           <div className="home-container7">
-            <span className="bodySmall home-text42">
+            <span className="bodySmall home-text25">
               © 2024 Filmatch, All Rights Reserved.
             </span>
             <div className="home-icon-group1"></div>
