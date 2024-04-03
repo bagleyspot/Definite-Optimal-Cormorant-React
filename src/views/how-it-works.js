@@ -48,7 +48,9 @@ const HowItWorks = (props) => {
               >
                 Start now
               </a>
-              <span className="how-it-works-nav52 bodySmall">Contact Us</span>
+              <Link to="/how-it-works" className="how-it-works-nav52 bodySmall">
+                Contact Us
+              </Link>
             </nav>
             <div className="how-it-works-buttons">
               <a
@@ -196,11 +198,21 @@ const HowItWorks = (props) => {
         <div className="how-it-works-container5">
           <span className="logo">FILMATCH</span>
           <nav className="how-it-works-nav1">
-            <span className="bodySmall">Home</span>
+            <Link to="/" className="how-it-works-nav122 bodySmall">
+              Home
+            </Link>
             <span className="how-it-works-nav222 bodySmall">How It Works</span>
-            <span className="how-it-works-nav321 bodySmall">Categories</span>
-            <span className="how-it-works-nav422 bodySmall">Vote Now</span>
-            <span className="how-it-works-nav522 bodySmall">Contact Us</span>
+            <a
+              href="https://filmatch.app"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="how-it-works-nav422 bodySmall"
+            >
+              Vote Now
+            </a>
+            <Link to="/contact-us" className="how-it-works-nav522 bodySmall">
+              Contact Us
+            </Link>
           </nav>
         </div>
         <div className="how-it-works-separator"></div>

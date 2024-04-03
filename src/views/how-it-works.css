@@ -45,6 +45,7 @@
 }
 .how-it-works-nav52 {
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .how-it-works-buttons {
   display: flex;
@@ -297,17 +298,19 @@
   align-items: center;
   flex-direction: row;
 }
-.how-it-works-nav222 {
-  margin-left: var(--dl-space-space-unit);
+.how-it-works-nav122 {
+  text-decoration: none;
 }
-.how-it-works-nav321 {
+.how-it-works-nav222 {
   margin-left: var(--dl-space-space-unit);
 }
 .how-it-works-nav422 {
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .how-it-works-nav522 {
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .how-it-works-separator {
   flex: 0 0 auto;

@@ -51,12 +51,9 @@ const Home = (props) => {
               >
                 Start now
               </a>
-              <a
-                href="mailto:cont.filmatch@gmail.com?subject=Detail about filmatch"
-                className="home-nav52 bodySmall"
-              >
+              <Link to="/contact-us" className="home-nav52 bodySmall">
                 Contact Us
-              </a>
+              </Link>
             </nav>
             <div className="home-buttons">
               <a
@@ -252,19 +249,16 @@ const Home = (props) => {
                 How It Works
               </Link>
               <a
-                href="https://filmatch.org"
+                href="https://filmatch.app"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-nav422 bodySmall"
               >
                 Start now
               </a>
-              <a
-                href="mailto:cont.filmatch@gmail.com?subject=Detail about filmatch"
-                className="home-nav522 bodySmall"
-              >
+              <Link to="/contact-us" className="home-nav522 bodySmall">
                 Contact Us
-              </a>
+              </Link>
             </nav>
           </div>
           <div className="home-separator"></div>

@@ -9,8 +9,8 @@ import {
 
 import './style.css'
 import Home from './views/home'
-import ContactUs from './views/contact-us'
 import HowItWorks from './views/how-it-works'
+import ContactUs from './views/contact-us'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -18,8 +18,8 @@ const App = () => {
     <Router>
       <Switch>
         <Route component={Home} exact path="/" />
-        <Route component={ContactUs} exact path="/contact-us" />
         <Route component={HowItWorks} exact path="/how-it-works" />
+        <Route component={ContactUs} exact path="/contact-us" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

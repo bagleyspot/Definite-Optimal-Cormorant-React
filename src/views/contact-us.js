@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -35,9 +36,12 @@ const ContactUs = (props) => {
           />
           <div data-thq="thq-navbar-nav" className="contact-us-desktop-menu">
             <nav className="contact-us-links">
-              <span className="bodySmall">Home</span>
-              <span className="contact-us-nav22 bodySmall">How It Works</span>
-              <span className="contact-us-nav32 bodySmall">Categories</span>
+              <Link to="/" className="contact-us-nav12 bodySmall">
+                Home
+              </Link>
+              <Link to="/how-it-works" className="contact-us-nav22 bodySmall">
+                How It Works
+              </Link>
               <a
                 href="https://filmatch.app"
                 target="_blank"
@@ -46,7 +50,9 @@ const ContactUs = (props) => {
               >
                 Start now
               </a>
-              <span className="contact-us-nav52 bodySmall">Contact Us</span>
+              <Link to="/contact-us" className="contact-us-nav52 bodySmall">
+                Contact Us
+              </Link>
             </nav>
             <div className="contact-us-buttons">
               <a
@@ -99,7 +105,7 @@ const ContactUs = (props) => {
                 <span className="contact-us-nav221 bodySmall">
                   How It Works
                 </span>
-                <span className="contact-us-nav321 bodySmall">Categories</span>
+                <span className="contact-us-nav32 bodySmall">Categories</span>
                 <span className="contact-us-nav421 bodySmall">Vote Now</span>
                 <span className="contact-us-nav521 bodySmall">Contact Us</span>
               </nav>
@@ -133,25 +139,48 @@ const ContactUs = (props) => {
       </div>
       <div className="contact-us-hero">
         <div className="heroContainer contact-us-hero1">
-          <div className="contact-us-container1">
-            <h1 className="contact-us-hero-heading heading1">Contact Us</h1>
+          <div className="contact-us-container1"></div>
+          <div className="contact-us-banner">
+            <h1 className="contact-us-text">Contact Us</h1>
+            <div className="contact-us-container2">
+              <p>
+                <span>
+                  For suggestions, feedbacks and other please contact us on this
+                  email: 
+                </span>
+                <span className="contact-us-text3">
+                  cont.filmatch@gmail.com
+                </span>
+              </p>
+              <div className="contact-us-btn-group"></div>
+            </div>
           </div>
         </div>
       </div>
       <footer className="footerContainer contact-us-footer">
-        <div className="contact-us-container2">
+        <div className="contact-us-container3">
           <span className="logo">FILMATCH</span>
           <nav className="contact-us-nav1">
-            <span className="bodySmall">Home</span>
-            <span className="contact-us-nav222 bodySmall">How It Works</span>
-            <span className="contact-us-nav322 bodySmall">Categories</span>
-            <span className="contact-us-nav422 bodySmall">Vote Now</span>
+            <Link to="/" className="contact-us-nav122 bodySmall">
+              Home
+            </Link>
+            <Link to="/how-it-works" className="contact-us-nav222 bodySmall">
+              How It Works
+            </Link>
+            <a
+              href="https://filmatch.app"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="contact-us-nav422 bodySmall"
+            >
+              Vote Now
+            </a>
             <span className="contact-us-nav522 bodySmall">Contact Us</span>
           </nav>
         </div>
         <div className="contact-us-separator"></div>
-        <div className="contact-us-container3">
-          <span className="bodySmall contact-us-text">
+        <div className="contact-us-container4">
+          <span className="bodySmall contact-us-text4">
             © 2024 Filmatch, All Rights Reserved.
           </span>
           <div className="contact-us-icon-group1"></div>
