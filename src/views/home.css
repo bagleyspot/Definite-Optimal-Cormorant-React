@@ -46,6 +46,7 @@
 }
 .home-nav52 {
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-buttons {
   display: flex;
@@ -158,8 +159,10 @@
   justify-content: center;
 }
 .home-hero1 {
+  display: flex;
   animation-name: none;
   animation-delay: 0s;
+  background-color: https://pbs.twimg.com/profile_banners/1773099466133762048/1711576422/1500x500;
   animation-duration: 300ms;
   animation-direction: normal;
   animation-iteration-count: 1;
@@ -362,17 +365,20 @@
   align-items: center;
   flex-direction: row;
 }
+.home-nav122 {
+  text-decoration: none;
+}
 .home-nav222 {
   margin-left: var(--dl-space-space-unit);
-}
-.home-nav321 {
-  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-nav422 {
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-nav522 {
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-separator {
   flex: 0 0 auto;

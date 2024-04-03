@@ -51,7 +51,12 @@ const Home = (props) => {
               >
                 Start now
               </a>
-              <span className="home-nav52 bodySmall">Contact Us</span>
+              <a
+                href="mailto:cont.filmatch@gmail.com?subject=Detail about filmatch"
+                className="home-nav52 bodySmall"
+              >
+                Contact Us
+              </a>
             </nav>
             <div className="home-buttons">
               <a
@@ -240,11 +245,26 @@ const Home = (props) => {
           <div className="home-container6">
             <span className="logo">FILMATCH</span>
             <nav className="home-nav1">
-              <span className="bodySmall">Home</span>
-              <span className="home-nav222 bodySmall">How It Works</span>
-              <span className="home-nav321 bodySmall">Categories</span>
-              <span className="home-nav422 bodySmall">Vote Now</span>
-              <span className="home-nav522 bodySmall">Contact Us</span>
+              <Link to="/" className="home-nav122 bodySmall">
+                Home
+              </Link>
+              <Link to="/how-it-works" className="home-nav222 bodySmall">
+                How It Works
+              </Link>
+              <a
+                href="https://filmatch.org"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-nav422 bodySmall"
+              >
+                Start now
+              </a>
+              <a
+                href="mailto:cont.filmatch@gmail.com?subject=Detail about filmatch"
+                className="home-nav522 bodySmall"
+              >
+                Contact Us
+              </a>
             </nav>
           </div>
           <div className="home-separator"></div>
